@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 class OlsModel:
     def __init__(self):
         # the folder path for setting sequence data
-        self.train_data_path = "Users/bob2yyyy/avenir-hku-web/kline_data/train_data"
+        self.train_data_path = "/Users/bob2yyyy/avenir-hku-web/kline_data/train_data"
         self.start_datetime = datetime.datetime(2021, 3, 1, 0, 0, 0)
     
     def get_all_symbol_list(self):
